@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: General Sans;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    /* position: relative; */
+    width: 100%;
+    background-color: black;
+}
+#mouseCircle{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 9999;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 500ms;
+}
+.hero{
+    width: 100vw;
+    background-color: black;
+    height: 100vh;
+}
+.navbar{
+    width: 100vw;
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    color: white;
+    align-items: center;
+
+    a{
+        /* padding-left: 30px;  */
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        
+    }
+    h4{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+.heading{
+    padding-top: 12vh;
+    color: #A3A3A3;
+    width: 100vw;
+    height: 85vh;
+    gap: 20px;
+}
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+    
+}
+.boundingElem{
+    transform: translateY(100%);
+}
+.product{
+    /* padding-top: vh; */
+    padding-left: 20px;
+    font-size: 5vw;
+}
+.desigining{
+    font-size: 5vw;
+    width: 65vw;
+    display: flex;
+    justify-content: end;
+    margin-top: -50px;
+
+}
+.toronto{
+    font-size: 15px;
+    width: 65vw;
+    display: flex;
+    justify-content: end;
+    color: white;
+    margin-top: -20px;
+}
+.avaibility{
+    padding-top: 150px;
+}
+.left{
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+    color: white;
+}
+.tail_end{
+    width: 60vw;
+    padding-top: 85px;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    
+}
+.footP1{
+    opacity: 0;
+}
+.tail_end a {
+    color: white;
+
+    i{
+        color: white
+    }
+}
+.i1{
+    padding-left: 20px;
+}
+.circle{
+    display: flex;
+    position: absolute;
+    justify-content: end;
+    right: 0;
+    padding-right: 15px;
+}
+.c1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #A3A3A3;
+}
+
+.c2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-left: 10px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #A3A3A3;
+}
+
+#second{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding-top: 200px;
+    padding-left: 20px;
+    padding-right: 7vw;
+}
+/* #viewCircle{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 5555;
+
+
+} */
+.elem{
+    width: 100%;
+    position: relative;
+    border-top: 1px solid #888;
+    color: white;
+    
+    padding: 1vw 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 0;
+    h1{
+        text-transform: uppercase;
+        font-size: 7.6vw;
+        opacity: 0.7;
+    }
+    p{
+        font-size: 20px;
+    }
+    img{
+        height: 140%;
+        position: absolute;
+        z-index: 99999;
+        opacity: 0;
+
+    }
+}
+.elast{
+    border-bottom: 1px solid #888;
+}
+.footer{
+    padding-top: 7vh;
+    height: 140vh;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+.about{
+    padding-top: 18vh;
+    width: 100%;
+    height: 40vh; 
+    display: flex;
+}
+.imgp{
+    padding-left: 20vw;
+    padding-top: 20px;
+   img{
+    height: 30vh;
+   }
+}
+.word{
+    padding-left: 7vw;
+    padding-right: 14vw;
+    text-align: left;
+    p{
+        font-size: 1.4vw;
+        line-height: 2.2vw;
+    }
+
+
+}
+.aboutme{
+    h4{
+        text-transform: uppercase;
+    }
+}
+
+.talk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 8vw;
+    height: 6vh;
+    border: 1px solid white;
+}
+.youtube{
+    margin-top: 65vh;
+    padding-left: 20px;
+    text-transform: uppercase;
+    a{
+        text-decoration: none;
+        color: white;
+        i{
+            padding-left: 3px;
+        }
+    }
+}
+.bottom{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13vh;
+}
+.bottom_left{
+    display: flex;
+    justify-content: space-evenly;
+    h5{
+        padding-left: 20px
+    }
+}
+.bottom_right{
+    a{
+        text-decoration: none;
+        color: white;
+        padding-right: 20px;
+        text-transform: uppercase;
+    }
+}
