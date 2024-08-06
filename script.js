@@ -73,8 +73,6 @@ document.querySelectorAll(".elem").forEach(function (elem){
             opacity: 1,
             ease: Power3,
             top: diff,
-            x: "-190",
-            y: "-30",
             left: details.clientX,
             rotate: gsap.utils.clamp(-20, 20, diffRot*0.5)
         });
